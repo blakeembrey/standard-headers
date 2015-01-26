@@ -1,0 +1,38 @@
+{
+  "name": "standard-headers",
+  "version": "0.0.0",
+  "description": "Lowercase array of standard HTTP headers",
+  "main": "standard-headers.js",
+  "files": [
+    "standard-headers.js",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "jshint": "jshint .",
+    "mocha": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec --bail",
+    "test": "npm run jshint && npm run mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/standard-headers.git"
+  },
+  "keywords": [],
+  "author": "Blake Embrey <hello@blakeembrey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/standard-headers/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/standard-headers",
+  "devDependencies": {
+    "cheerio": "^0.18.0",
+    "istanbul": "^0.3.5",
+    "javascript-stringify": "^1.0.1",
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0",
+    "pre-commit": "0.0.11",
+    "request": "^2.51.0",
+    "which": "^1.0.8"
+  },
+  "dependencies": {}
+}
