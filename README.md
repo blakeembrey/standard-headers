@@ -5,20 +5,20 @@
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
 
-Lowercase array of [standard HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
+Lowercase array of [standard HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
 
 ## Installation
 
-```sh
+```
 npm install standard-headers --save
 ```
 
 ## Usage
 
 ```js
-var standardHeaders = require('standard-headers');
+var standardHeaders = require('standard-headers')
 
-standardHeaders.indexOf('accept'); //=> 0
+standardHeaders.request.indexOf('accept') //=> 0
 ```
 
 ## License

@@ -1,13 +1,27 @@
 /* global describe, it */
-var assert = require('assert');
-var standardHeaders = require('./');
+
+var expect = require('chai').expect
+var headers = require('./')
 
 describe('standard headers', function () {
-  it('should be an array', function () {
-    assert(Array.isArray(standardHeaders));
-  });
+  it('should be an object with request and response header arrays', function () {
+    expect(headers).to.have.keys(['request', 'response'])
+  })
 
-  it('should contain lowercase headers', function () {
-    assert(standardHeaders.indexOf('content-type') > -1);
-  });
-});
+  describe('request headers', function () {
+    it('should contain lowercase headers', function () {
+      expect(headers.request).to.contain('accept')
+    })
+
+    it('should contain both referrer spellings', function () {
+      expect(headers.request).to.contain('referer')
+      expect(headers.request).to.contain('referrer')
+    })
+  })
+
+  describe('response headers', function () {
+    it('should contain lowercase headers', function () {
+      expect(headers.response).to.contain('content-type')
+    })
+  })
+})
