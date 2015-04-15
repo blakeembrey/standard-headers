@@ -1,6 +1,6 @@
 {
   "name": "standard-headers",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Lowercase array of standard HTTP headers",
   "main": "standard-headers.js",
   "files": [
