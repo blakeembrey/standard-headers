@@ -32,6 +32,7 @@ module.exports = {
     'referer',
     'referrer',
     'te',
+    'transfer-encoding',
     'upgrade',
     'user-agent',
     'via',
