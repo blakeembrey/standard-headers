@@ -1,11 +1,10 @@
 # Standard Headers
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/standard-headers.svg)](https://greenkeeper.io/)
-
 [![NPM version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/standard-headers.svg)](https://greenkeeper.io/)
 
 Lowercase array of [standard HTTP headers](https://en.wikipedia.org/wiki/List_of_HTTP_header_fields).
 
