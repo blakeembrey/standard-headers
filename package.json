@@ -28,7 +28,6 @@
     "chai": "^4.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.3.0",
-    "pre-commit": "^1.0.6",
     "standard": "^10.0.2"
   }
 }
